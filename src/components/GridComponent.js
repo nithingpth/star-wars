@@ -147,7 +147,7 @@ class Grid extends Component {
         ) : (
           ''
         )}
-        {this.state.list.length == 0 ? (
+        {this.state.list.length == 0 && !this.state.loadingList ? (
           <div id="overlay">
             <span>
               <i class="fa fa-exclamation" aria-hidden="true"></i>
