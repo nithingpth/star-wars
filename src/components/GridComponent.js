@@ -29,7 +29,7 @@ class Grid extends Component {
             speciesMap[row.url] = row.name;
           });
           this.setState({ speciesMap });
-          /this.getPage(this.state.page);
+          //this.getPage(this.state.page);
         }
       })
       .catch((err) => {});
